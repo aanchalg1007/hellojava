@@ -1,0 +1,32 @@
+$ git remote
+$ git remote -v
+$ git remote add myremrep https://github.com/aanchalg1007
+$ git remote
+$ git remote -v
+$ git remote add myremrep1 https://github.com/aanchalg1007/myremote
+$ git remote -v
+clear
+
+$ git push -u myremrep1 feature1
+$ git pull myremrep1 feature1
+$ clear
+
+mkdir newrep
+git init
+$ git clone https://github.com/aanchalg1007/myremote
+ls
+cd myremote
+ls
+
+$ git branch -a
+$ ls
+#create new file in github
+$ git fetch myremrep1 master
+$ git diff master myremrep1/master
+$ git merge myremrep1/master
+
+
+
+
+git diff
+
